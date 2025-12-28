@@ -1,0 +1,11 @@
+[project]
+name = "01-ollama-python-simple-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "huggingface-hub>=0.36.0",
+    "python-dotenv>=1.2.1",
+    "smolagents[litellm]>=1.23.0",
+]
