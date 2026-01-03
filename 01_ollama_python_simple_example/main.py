@@ -7,6 +7,7 @@ model = LiteLLMModel(
 )
 
 def main():
+    model.client.chat("Hello from 01-ollama-python-simple-example!")
     print("Hello from 01-ollama-python-simple-example!")
 
 
