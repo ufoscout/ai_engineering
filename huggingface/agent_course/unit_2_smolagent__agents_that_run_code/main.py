@@ -22,7 +22,7 @@ def suggest_menu(occasion: str) -> str:
         return "Custom menu for the butler."
     
 
-def main():
+def main() -> None:
     
     config = dotenv_values("../../../.env")
 
